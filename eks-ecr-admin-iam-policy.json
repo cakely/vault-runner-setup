@@ -1,0 +1,30 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "autoscaling:DescribeAutoScalingGroups",
+                "autoscaling:DescribeLaunchConfigurations",
+                "autoscaling:DescribeScalingActivities",
+                "autoscaling:CreateLaunchConfiguration",
+                "autoscaling:DeleteLaunchConfiguration",
+                "autoscaling:UpdateAutoScalingGroup",
+                "autoscaling:DeleteAutoScalingGroup",
+                "autoscaling:CreateAutoScalingGroup",
+                "cloudformation:*",
+                "cloudwatch:*",
+                "elasticloadbalancing:*",
+                "eks:*",
+                "ec2:*",
+                "iam:*",
+                "kms:CreateGrant",
+                "kms:DescribeKey",
+                "ssm:GetParameter",
+                "ssm:GetParameters",
+                "ssm:DescribeParameters"
+            ],
+            "Resource": "*"
+        }
+    ]
+}

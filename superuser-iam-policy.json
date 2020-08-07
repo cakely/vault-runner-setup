@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Statement": {
+        "Effect": "Allow",
+        "Action": [
+            "autoscaling:*",
+            "cloudformation:*",
+            "cloudwatch:*",
+            "elasticloadbalancing:*",
+            "eks:*",
+            "ec2:*",
+            "ecr:*",
+            "iam:*",
+            "kms:*",
+            "ssm:*",
+            "sts:GetFederationToken"
+        ],
+        "Resource": "*"
+    }
+}
